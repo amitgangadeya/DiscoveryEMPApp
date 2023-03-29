@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#205EAA"
+    >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="186dp"
+        app:srcCompat="@drawable/disclogo"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="51dp" />
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="40sp"
+        android:background="@color/white"
+        android:id="@+id/username"
+        android:hint="Username"
+        />
+    <EditText
+        android:layout_width="300sp"
+        android:layout_height="30sp"
+        android:layout_marginTop="40sp"
+        android:background="@color/white"
+        android:id="@+id/password"
+        android:hint="Password"
+        />
+    <Button
+        android:id="@+id/log"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:background="#000E59"
+        android:text="Login"
+        android:layout_margin="40sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Employee App"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</LinearLayout>
