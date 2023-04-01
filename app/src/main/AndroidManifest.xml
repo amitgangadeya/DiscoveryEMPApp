@@ -12,6 +12,10 @@
         android:theme="@style/Theme.DiscoveryEMPApp"
         tools:targetApi="31">
         <activity
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:name=".Menu" />
+        <activity
             android:exported="true"
             android:name=".MainActivity">
             <intent-filter>

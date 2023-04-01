@@ -45,12 +45,12 @@ class MainActivity : AppCompatActivity() {
                     val user = auth.currentUser
                     Toast.makeText(baseContext, "Authenticated!!!.",
                         Toast.LENGTH_SHORT).show()
-/*
+
                     val intent = Intent(
                         this,
                         com.example.discoveryempapp.Menu::class.java
                     )
- */
+
                     startActivity(intent)
 
 

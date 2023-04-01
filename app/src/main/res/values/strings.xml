@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">DiscoveryEMPApp</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_home">MyInfo</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Office</string>
 </resources>
