@@ -13,8 +13,19 @@
         tools:targetApi="31">
         <activity
             android:exported="false"
-            android:label="@string/title_activity_menu"
-            android:name=".Menu" />
+            android:name=".Mydashboard" />
+        <activity
+            android:exported="false"
+            android:name=".MyOnboarding" />
+        <activity
+            android:exported="false"
+            android:name=".Getinfo" />
+        <activity
+            android:exported="false"
+            android:name=".Editinfo" />
+        <activity
+            android:exported="false"
+            android:name=".BottomNavMenu" />
         <activity
             android:exported="true"
             android:name=".MainActivity">
@@ -24,6 +35,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:name=".Menu" />
     </application>
 
 </manifest>

@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
                     val intent = Intent(
                         this,
-                        com.example.discoveryempapp.Menu::class.java
+                        BottomNavMenu::class.java
                     )
 
                     startActivity(intent)
