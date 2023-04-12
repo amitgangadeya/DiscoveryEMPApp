@@ -1,9 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#B5AC00"
     tools:context=".MyOnboarding">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="My Tasks:"
+    android:textSize="40dp"
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    android:textColor="@color/black"
+    android:background="#B5AC00"
+    ></TextView>
+    <Button
+        android:id="@+id/emal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#FF9800"
+        android:text="1. Email Setup" />
+    <Button
+        android:id="@+id/env"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#FF9800"
+        android:text="2. Environment Setup" />
+    <Button
+        android:id="@+id/axess"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FF9800"
+        android:text="3. Access Setup" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tasks Completed: 0/3"
+        android:textSize="20dp"
+        android:id="@+id/tasksdone"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/black"
+        android:background="#B5AC00"
+        ></TextView>
+>
+</LinearLayout>

@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             loginUser(email, password)
         }
     }
+
     private fun loginUser(email: String, password: String){
         auth.signInWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->

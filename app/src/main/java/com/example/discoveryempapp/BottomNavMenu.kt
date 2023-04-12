@@ -17,7 +17,7 @@ class BottomNavMenu : AppCompatActivity() {
 
                 R.id.dashboard -> showdashboard()
                 R.id.info -> showinfo()
-                R.id.office -> repfrag(Office())
+                R.id.office -> showoffice()
            else ->{
 
            }
@@ -26,7 +26,11 @@ class BottomNavMenu : AppCompatActivity() {
 true
         }
     }
+    private fun showoffice() {
+        val intent = Intent(this, MyOffice::class.java)
+        startActivity(intent)
 
+    }
     private fun showdashboard() {
         val intent = Intent(this, Mydashboard::class.java)
         startActivity(intent)
@@ -38,13 +42,7 @@ true
         startActivity(intent)
     }
 
-    private fun repfrag(fragment:Fragment)
-    {
-        val fragman = supportFragmentManager
-        val fragmenttrans = fragman.beginTransaction()
-        fragmenttrans.replace(R.id.frame,fragment)
-        fragmenttrans.commit()
-    }
+
 
 
 }
