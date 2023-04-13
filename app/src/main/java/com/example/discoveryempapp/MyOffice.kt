@@ -21,6 +21,7 @@ import java.util.*
                 this,
                 MakeApdf::class.java
             )
+            startActivity(intent)
 
         }
         title = "My Office"
