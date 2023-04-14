@@ -7,12 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     tools:context=".Emailsetup">
-    <Button
-        android:id="@+id/showbutt"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Show PDF"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"></Button>
+
     <Button
         android:id="@+id/shpdf"
         android:layout_width="wrap_content"

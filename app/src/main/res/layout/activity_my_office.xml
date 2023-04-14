@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
+    android:background="#FF9800"
     tools:context=".MyOffice"
 
     >
@@ -18,15 +19,20 @@
         android:orientation="vertical" />
     <Button
         android:id="@+id/Tasks"
-        android:layout_marginTop="100dp"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="addCalendarEvent"
-        android:text="Tasks" />
+        android:text="Schedule a meeting" />
     <Button
         android:id="@+id/MakePDF"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Make PDF" />
+    <Button
+        android:id="@+id/viewdoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PDF viewer" />
 
 </LinearLayout>

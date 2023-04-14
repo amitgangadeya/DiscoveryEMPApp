@@ -11,9 +11,9 @@
 <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:text="My Tasks:"
-    android:textSize="40dp"
-
+    android:text="My Onboarding Tasks:"
+    android:textSize="30dp"
+    android:id="@+id/taskscomp"
     android:textColor="@color/black"
     android:background="#B5AC00"
     ></TextView>
@@ -38,15 +38,6 @@
         android:layout_marginTop="20dp"
         android:backgroundTint="#FF9800"
         android:text="3. Access Setup" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tasks Completed: 0/3"
-        android:textSize="20dp"
-        android:id="@+id/tasksdone"
-        android:layout_marginTop="40dp"
-        android:textColor="@color/black"
-        android:background="#B5AC00"
-        ></TextView>
+
 >
 </LinearLayout>

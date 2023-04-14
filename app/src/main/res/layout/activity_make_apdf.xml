@@ -7,18 +7,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@color/blue"
     tools:context=".MainActivity">
-
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/setfile"
+    android:hint="Enter a PDF title"></EditText>
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GET Image"
+        android:layout_marginTop="10dp"
+        android:text="Select images to convert"
         android:id="@+id/GetImage"
         />
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Cancel!"
+        android:text="Cancel conversion"
+        android:layout_marginTop="10dp"
         android:id="@+id/Cancel"
 
 

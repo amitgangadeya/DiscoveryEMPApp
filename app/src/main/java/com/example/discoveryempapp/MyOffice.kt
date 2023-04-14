@@ -11,11 +11,21 @@ import java.util.*
 
  class MyOffice : AppCompatActivity() {
      private lateinit var makepdf: Button
+     private lateinit var viewpdf: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_my_office)
         makepdf = findViewById(R.id.MakePDF)
+        viewpdf = findViewById(R.id.viewdoc)
+        viewpdf.setOnClickListener()
+        {
+            val intent = Intent(
+                this,
+                OpenPDF::class.java
+            )
+            startActivity(intent)
+        }
         makepdf.setOnClickListener(){
             val intent = Intent(
                 this,

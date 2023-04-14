@@ -1,6 +1,7 @@
 package com.example.discoveryempapp
 
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -23,10 +24,10 @@ class MyOnboarding : AppCompatActivity() {
             startActivity(intent)
         }
         enviro.setOnClickListener(){
-            val intent = Intent(this, Projects::class.java)
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/discoveryemployeeapp.appspot.com/o/khawas-2018-ijca-917200.pdf?alt=media&token=f697a87a-ef28-41a0-8dbc-8ce01cedf95b")))
         }
         team.setOnClickListener(){
-            val intent = Intent(this, TeamInfo::class.java)
+
         }
 
 
